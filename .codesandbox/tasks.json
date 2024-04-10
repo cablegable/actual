@@ -1,0 +1,123 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true
+    },
+    "start:desktop": {
+      "name": "start:desktop",
+      "command": "yarn start:desktop",
+      "runAtStart": false
+    },
+    "start:desktop-node": {
+      "name": "start:desktop-node",
+      "command": "yarn start:desktop-node",
+      "runAtStart": false
+    },
+    "start:desktop-client": {
+      "name": "start:desktop-client",
+      "command": "yarn start:desktop-client",
+      "runAtStart": false
+    },
+    "start:desktop-electron": {
+      "name": "start:desktop-electron",
+      "command": "yarn start:desktop-electron",
+      "runAtStart": false
+    },
+    "start:electron": {
+      "name": "start:electron",
+      "command": "yarn start:electron",
+      "runAtStart": false
+    },
+    "start:browser": {
+      "name": "start:browser",
+      "command": "yarn start:browser",
+      "runAtStart": false
+    },
+    "start:browser-backend": {
+      "name": "start:browser-backend",
+      "command": "yarn start:browser-backend",
+      "runAtStart": false
+    },
+    "start:browser-frontend": {
+      "name": "start:browser-frontend",
+      "command": "yarn start:browser-frontend",
+      "runAtStart": false
+    },
+    "build:browser": {
+      "name": "build:browser",
+      "command": "yarn build:browser",
+      "runAtStart": false
+    },
+    "build:desktop": {
+      "name": "build:desktop",
+      "command": "yarn build:desktop",
+      "runAtStart": false
+    },
+    "build:api": {
+      "name": "build:api",
+      "command": "yarn build:api",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "test:debug": {
+      "name": "test:debug",
+      "command": "yarn test:debug",
+      "runAtStart": false
+    },
+    "e2e": {
+      "name": "e2e",
+      "command": "yarn e2e",
+      "runAtStart": false
+    },
+    "vrt": {
+      "name": "vrt",
+      "command": "yarn vrt",
+      "runAtStart": false
+    },
+    "rebuild-electron": {
+      "name": "rebuild-electron",
+      "command": "yarn rebuild-electron",
+      "runAtStart": false
+    },
+    "rebuild-node": {
+      "name": "rebuild-node",
+      "command": "yarn rebuild-node",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "lint:verbose": {
+      "name": "lint:verbose",
+      "command": "yarn lint:verbose",
+      "runAtStart": false
+    },
+    "typecheck": {
+      "name": "typecheck",
+      "command": "yarn typecheck",
+      "runAtStart": false
+    },
+    "jq": {
+      "name": "jq",
+      "command": "yarn jq",
+      "runAtStart": false
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import * as colorPalette from '../palette';
 
-export const pageBackground = colorPalette.navy100;
+export const pageBackground = colorPalette.white;
 export const pageBackgroundModalActive = colorPalette.navy200;
 export const pageBackgroundTopLeft = colorPalette.navy100;
 export const pageBackgroundBottomRight = colorPalette.blue150;
@@ -15,7 +15,7 @@ export const pageTextPositive = colorPalette.purple600;
 export const pageTextLink = colorPalette.blue600;
 export const pageTextLinkLight = colorPalette.blue300;
 
-export const cardBackground = colorPalette.white;
+export const cardBackground = colorPalette.purple700;
 export const cardBorder = colorPalette.purple700;
 export const cardShadow = colorPalette.navy700;
 
